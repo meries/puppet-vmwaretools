@@ -12,7 +12,8 @@ With this custom fact we can obtain :
  - Parameter timesync status (recommended to be disable if you have an ntp server configured)
  
  
- Result :
+ ---
+ Example :
  
  ```
  foreman :: puppet-vmwaretools/lib/facter # facter -p vmwaretools
