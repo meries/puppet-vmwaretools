@@ -19,7 +19,6 @@ def timesync(vmtoolsboxbinary)
 end
 
 def timesync_exitcode(app_informations)
-
   returncode = $?.exitstatus
 
   if returncode == 69
@@ -30,7 +29,6 @@ def timesync_exitcode(app_informations)
 end
 
 Facter.add('vmwaretools') do
-  
   confine :is_virtual => true
   confine :virtual => :vmware
   confine :kernel => :linux
@@ -54,7 +52,6 @@ Facter.add('vmwaretools') do
 end
 
 Facter.add('vmwaretools') do
-
   confine :is_virtual => true
   confine :virtual => :vmware
   confine :kernel => :windows
