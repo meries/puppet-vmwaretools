@@ -16,7 +16,7 @@ With this custom fact we can obtain :
  Example :
  
  ```
- foreman :: puppet-vmwaretools/lib/facter # facter -p vmwaretools
+ foreman :: puppet_vmwaretools/lib/facter # facter -p vmwaretools
 {
   status => "installed",
   version => "10.0.5.52125 (build-3227872)",
