@@ -20,8 +20,8 @@ With this custom fact we can obtain :
 #> facter -p vmwaretools
 vmwaretools => {
   status => "installed",
-  version => "10.0.5.52125 (build-3227872)",
   location => "/usr/bin/vmtoolsd",
+  version => "10.0.5.52125 (build-3227872)",
   timesync => "disabled"
 }
  ```
