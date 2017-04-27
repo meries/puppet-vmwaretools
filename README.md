@@ -13,7 +13,6 @@ With this custom fact we can obtain :
  
  
  ---
- Example :
  
  For linux
  ```
