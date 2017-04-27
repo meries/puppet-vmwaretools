@@ -14,7 +14,7 @@ With this custom fact we can obtain :
  
  ---
  
- For linux
+Linux
  ```
 #> facter -p vmwaretools
 vmwaretools => {
@@ -25,7 +25,7 @@ vmwaretools => {
 }
  ```
  
- For Windows
+Windows
  ```
  #> facter -p vmwaretools
  vmwaretools => {
