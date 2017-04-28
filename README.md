@@ -13,7 +13,7 @@ With this custom fact we can obtain :
  
  
  ---
- OS Support  : RHEL Familly, Windows  
+ OS Support  : RHEL Family, Windows  
  ---
  
  e.g. for linux
