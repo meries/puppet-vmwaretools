@@ -13,8 +13,10 @@ With this custom fact we can obtain :
  
  
  ---
+ OS Support  : RHEL Familly, Windows  
+ ---
  
-Linux
+ eg. for linux
  ```
 #> facter -p vmwaretools
 vmwaretools => {
@@ -25,7 +27,7 @@ vmwaretools => {
 }
  ```
  
-Windows
+eg. for windows
  ```
  #> facter -p vmwaretools
  vmwaretools => {
