@@ -1,4 +1,4 @@
-﻿# puppet_vmwaretools
+﻿# facts_vmwaretools
 
 This vmwaretools ruby fact has been developped to be use in your puppet manifest.
 Working for linux and windows operating system.
